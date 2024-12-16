@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto y Botón con Imagen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Arte y Antiguedades</div>
+        <ul class="menu">
+            <li>
+                <a>Remate Online</a>
+                <ul class="submenu">
+                    <li><a href="informacion.html">informacion</a></li>
+                    <li><a href="#">catalogo</a></li>
+                    <li><a href="#">salon</a></li>
+                </ul>
+            </li>
+            <li>
+                <a>Subasta Automática</a>
+                <ul class="submenu">
+                    <li><a href="#">informacion</a></li>
+                    <li><a href="#">Lote en Subasta</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Vendé</a>
+            </li>
+        </ul>
+        <div class="buttons">
+            <button>Ingresar</button>
+            <button>Registro</button>
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </nav>
+    <div class="content">
+        <h2>Texto Centrado</h2>
+        <p>Este es un ejemplo de texto centrado tanto horizontal como verticalmente en la página. Puedes agregar más contenido aquí.</p>
+    </div>
+
+    <div class="search-container">
+        <input type="text" placeholder="Buscar..." id="search-input">
+        <button onclick="search()">Buscar</button>
+    </div>
+    <div class="product-container">
+        <div class="product-card">
+          <img src="img/1.jpg" alt="Imagen del producto" class="product-img">
+          <div class="product-info">
+            <h3 class="product-title">1</h3>
+            <p class="product-description">Esta es una descripción breve del producto.</p>
+            <div class="product-details">
+              <p class="product-price">$45.00</p>
+              <button class="add-to-cart-btn">Agregar al carrito</button>
+            </div>
+          </div>
+        </div>
+      
+        <div class="product-card">
+          <img src="img/2.jpg" alt="Imagen del producto" class="product-img">
+          <div class="product-info">
+            <h3 class="product-title">Nombre del Producto</h3>
+            <p class="product-description">Esta es una descripción breve del producto.</p>
+            <div class="product-details">
+              <p class="product-price">$45.00</p>
+              <button class="add-to-cart-btn">Agregar al carrito</button>
+            </div>
+          </div>
+        </div>
+      
+        <div class="product-card">
+          <img src="img/3.jpg" alt="Imagen del producto" class="product-img">
+          <div class="product-info">
+            <h3 class="product-title">Nombre del Producto</h3>
+            <p class="product-description">Esta es una descripción breve del producto.</p>
+            <div class="product-details">
+              <p class="product-price">$45.00</p>
+              <button class="add-to-cart-btn">Agregar al carrito</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-container">
+        <div class="product-card">
+          <img src="img/4.jpg" alt="Imagen del producto" class="product-img">
+          <div class="product-info">
+            <h3 class="product-title">Nombre del Producto</h3>
+            <p class="product-description">Esta es una descripción breve del producto.</p>
+            <div class="product-details">
+              <p class="product-price">$45.00</p>
+              <button class="add-to-cart-btn">Agregar al carrito</button>
+            </div>
+          </div>
+        </div>
+      
+        <div class="product-card">
+          <img src="img/5.jpg" alt="Imagen del producto" class="product-img">
+          <div class="product-info">
+            <h3 class="product-title">Nombre del Producto</h3>
+            <p class="product-description">Esta es una descripción breve del producto.</p>
+            <div class="product-details">
+              <p class="product-price">$45.00</p>
+              <button class="add-to-cart-btn">Agregar al carrito</button>
+            </div>
+          </div>
+        </div>
+      
+        <div class="product-card">
+          <img src="img/6.jpg" alt="Imagen del producto" class="product-img">
+          <div class="product-info">
+            <h3 class="product-title">Nombre del Producto</h3>
+            <p class="product-description">Esta es una descripción breve del producto.</p>
+            <div class="product-details">
+              <p class="product-price">$45.00</p>
+              <button class="add-to-cart-btn">Agregar al carrito</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-container">
+        <div class="product-card">
+          <img src="img/7.jpg" alt="Imagen del producto" class="product-img">
+          <div class="product-info">
+            <h3 class="product-title">Nombre del Producto</h3>
+            <p class="product-description">Esta es una descripción breve del producto.</p>
+            <div class="product-details">
+              <p class="product-price">$45.00</p>
+              <button class="add-to-cart-btn">Agregar al carrito</button>
+            </div>
+          </div>
+        </div>
+      
+        <div class="product-card">
+          <img src="img/8.jpg" alt="Imagen del producto" class="product-img">
+          <div class="product-info">
+            <h3 class="product-title">Nombre del Producto</h3>
+            <p class="product-description">Esta es una descripción breve del producto.</p>
+            <div class="product-details">
+              <p class="product-price">$45.00</p>
+              <button class="add-to-cart-btn">Agregar al carrito</button>
+            </div>
+          </div>
+        </div>
+      
+        <div class="product-card">
+          <img src="https://via.placeholder.com/400x250" alt="Imagen del producto" class="product-img">
+          <div class="product-info">
+            <h3 class="product-title">Nombre del Producto</h3>
+            <p class="product-description">Esta es una descripción breve del producto.</p>
+            <div class="product-details">
+              <p class="product-price">$45.00</p>
+              <button class="add-to-cart-btn">Agregar al carrito</button>
+            </div>
+          </div>
+        </div>
+      </div>                                          
+    <footer>
+        <div class="logo">
+            <h2>Arte y Antiguedades</h2>
+        </div>
+        <div class="footer-content">
+            <div class="column">
+                <h4>Arte y Antiguedades</h4>
+                <p>Términos y condiciones</p>
+                <p>Nosotros</p>
+                <p>Historia</p>
+            </div>
+            <div class="column">
+                <h4>Servicios</h4>
+                <p>Remate Online</p>
+                <p>Subasta Automatica</p>
+                <p>Tasaciones</p>
+            </div>
+        </div>
+        <div class="footer-buttons">
+            <button>Instagram</button>
+            <button>Whatsapp</button>
+        </div>
+    </footer>
+</body>
+</html>
